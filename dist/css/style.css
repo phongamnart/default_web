@@ -1,0 +1,94 @@
+body {
+    font-size: 1.1em;
+}
+
+.td-input {
+    border: 0px;
+    border-radius: 0px;
+    width: 100%;
+    height: 45px;
+    padding: 0px 20px;
+}
+.hidden{
+    display: none;
+}
+.table em, .form-group em{
+    color: #6c757d;
+}
+.modal-header{
+    background-color: #3f4d67;
+    color: #FFFFFF;
+}
+
+.custom-select:disabled {
+    box-shadow:none;
+    color: #495057;
+    border: 1px solid #ced4da;
+    opacity: 1;
+
+}
+@media (min-width:1200px) {
+    .modal-xl-item {
+        max-width: 1600px
+    }
+}
+/************ ITE ****************/
+@font-face {
+    font-family: 'browallia';
+    src: url('fonts/browa.ttf') format('truetype');
+}
+
+body{
+	/* font-family: "Sarabun", sans-serif; */
+    font-family: 'browallia', sans-serif !important;
+    font-weight: 400;
+    font-style: normal;
+}
+.navbar-white {
+    background: rgb(0,195,204);
+    background: linear-gradient(90deg, rgba(0,195,204,1) 0%, rgba(73,106,220,1) 100%) !important;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #fff !important;
+}
+
+
+
+.ck-editor__editable[role="textbox"] {
+    /* Editing area */
+    width: 18cm;
+    /* width: 100%; */
+    /* height: 29.7cm; */
+    /* min-height: 200px; */
+    /* font-family: 'browalia', sans-serif; */
+}
+
+.editorTextArea{
+    width: 18cm;
+    /* font-family: 'browalia', sans-serif; */
+}
+
+table {
+    table-layout: fixed;
+    width: 100%;
+}
+
+th, td {
+    word-wrap: break-word;
+    white-space: normal;
+}
+
+.ck-restricted-editing_mode_standard {
+    font-size: 0.89em;
+}
+
+.alert-warning {
+    background-color: #fff3d1 !important;
+}
+
+.text-warning {
+    color: #e1a900 !important;
+}
+ .datepicker{
+    width: 12rem !important;
+ }
